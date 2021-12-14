@@ -80,8 +80,8 @@ for i in links:
         # Insert dictionary of article info into the articles_info list
         articles_info.append(article_dict)
         
-        # Pass the list of dictionaries into a pandas data frame
-        corpus = pd.DataFrame(articles_info)
+#       # Pass the list of dictionaries into a pandas data frame
+#        corpus = pd.DataFrame(articles_info)
         
         # Print how long the process took
         print("Script took {:.2f} seconds to complete".format(time.time() - start))
@@ -90,6 +90,8 @@ for i in links:
     except:
         pass
 
+# Pass the list of dictionaries into a pandas data frame
+corpus = pd.DataFrame(articles_info)
 
 # Print articles´ metadata
 st.header("Article's metadata")
