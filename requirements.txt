@@ -2,3 +2,4 @@ bs4
 newspaper3k
 pybase64
 streamlit
+requests
