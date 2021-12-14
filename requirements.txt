@@ -1,4 +1,4 @@
-bs4
-newspaper3k
+bs4==4.9.3
+newspaper3k==0.2.8
 pybase64
-streamlit
+streamlit==0.85.1
